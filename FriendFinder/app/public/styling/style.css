@@ -1,0 +1,40 @@
+@font-face {
+    font-family: starWars;
+    src: url(Starjedi.ttf);
+}
+
+
+
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: none;
+    color: yellow; 
+    font-family: starWars;
+}
+body{
+    background: url(https://media.wired.com/photos/5b7f64cbbe2f8d3a624b77b2/master/pass/SPoW_82318_01.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.input-field{
+    padding-top: 0;
+    margin-top: 0;
+    color: white;
+}
+.card {
+    padding: 25px;
+}
+
+#name {
+    background-color: white;
+}
+#image {
+    background-color: white;
+}
+#matchName {
+    float: none;
+}
+#matchImg {
+    float: none;
+}
